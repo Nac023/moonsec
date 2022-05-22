@@ -5,3 +5,7 @@ _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
 
+local old = table.concat
+
+table.concat = function(brr)print(old(brr))return old(brr)
+end
